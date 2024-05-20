@@ -1,0 +1,56 @@
+Od 10 stycznia 2019 (czwartek) do 1 marca 2020 (niedziela)
+ - mija: 416 dni, tygodni 59.43
+ - kalendarzowo: 1 rok, 1 miesiąc, 20 dni
+Od 27 marca 2020 (piątek) godz. 10:00 do 28 marca 2020 (sobota) godz. 10:00
+ - mija: 1 dzień, tygodni 0.14
+ - godzin: 24, minut: 1440
+ - kalendarzowo: 1 dzień
+=== Asia log start ===
+logged in
+Request: 2019-01-10 2020-03-01
+Result:
+Od 10 stycznia 2019 (czwartek) do 1 marca 2020 (niedziela)
+ - mija: 416 dni, tygodni 59.43
+ - kalendarzowo: 1 rok, 1 miesiąc, 20 dni
+Request: 2020-03-27T10:00 2020-03-28T10:00
+Result:
+Od 27 marca 2020 (piątek) godz. 10:00 do 28 marca 2020 (sobota) godz. 10:00
+ - mija: 1 dzień, tygodni 0.14
+ - godzin: 24, minut: 1440
+ - kalendarzowo: 1 dzień
+logged out
+=== Asia log end ===
+
+Od 1 stycznia 2018 (poniedziałek) do 27 marca 2020 (piątek)
+ - mija: 816 dni, tygodni 116.57
+ - kalendarzowo: 2 lata, 2 miesiące, 26 dni
+Od 28 marca 2020 (sobota) godz. 10:00 do 29 marca 2020 (niedziela) godz. 10:00
+ - mija: 1 dzień, tygodni 0.14
+ - godzin: 23, minut: 1380
+ - kalendarzowo: 1 dzień
+=== Adam log start ===
+logged in
+Request: 2018-01-01 2020-03-27
+Result:
+Od 1 stycznia 2018 (poniedziałek) do 27 marca 2020 (piątek)
+ - mija: 816 dni, tygodni 116.57
+ - kalendarzowo: 2 lata, 2 miesiące, 26 dni
+Request: 2020-03-28T10:00 2020-03-29T10:00
+Result:
+Od 28 marca 2020 (sobota) godz. 10:00 do 29 marca 2020 (niedziela) godz. 10:00
+ - mija: 1 dzień, tygodni 0.14
+ - godzin: 23, minut: 1380
+ - kalendarzowo: 1 dzień
+logged out
+=== Adam log end ===
+
+
+=== Server log ===
+Asia logged in at 17:02:34.537
+Asia request at 17:02:34.583: "2019-01-10 2020-03-01"
+Asia request at 17:02:35.145: "2020-03-27T10:00 2020-03-28T10:00"
+Asia logged out at 17:02:35.207
+Adam logged in at 17:02:35.207
+Adam request at 17:02:35.207: "2018-01-01 2020-03-27"
+Adam request at 17:02:35.270: "2020-03-28T10:00 2020-03-29T10:00"
+Adam logged out at 17:02:35.335

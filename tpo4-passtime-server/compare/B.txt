@@ -1,0 +1,9 @@
+=== Server log ===
+Asia logged in at 16:59:23.494
+Adam logged in at 16:59:23.494
+Asia request at 16:59:23.541: "2019-01-10 2020-03-01"
+Adam request at 16:59:24.071: "2018-01-01 2020-03-27"
+Asia request at 16:59:24.102: "2020-03-27T10:00 2020-03-28T10:00"
+Adam request at 16:59:24.118: "2020-03-28T10:00 2020-03-29T10:00"
+Asia logged out at 16:59:24.165
+Adam logged out at 16:59:24.165

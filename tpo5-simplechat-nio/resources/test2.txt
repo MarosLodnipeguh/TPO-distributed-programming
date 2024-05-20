@@ -1,0 +1,4 @@
+localhost
+33333
+Asia    20    Dzień dobry    beee    Do widzenia
+Sara    20    Dzień dobry    muuu    Do widzenia

@@ -1,0 +1,4 @@
+localhost
+55557
+Asia    0    Dzień dobry    beee    Do widzenia
+Sara    0    Dzień dobry    muuu    Do widzenia

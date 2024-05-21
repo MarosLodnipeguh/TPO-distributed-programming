@@ -1,16 +1,16 @@
 # Zadanie SIMPLECHAT_NIO
 
 Napisać serwer czatu, który:
-	•	obsługuje logowanie klientów (tylko id, bez hasła),
-	•	przyjmuje od klientów wiadomości i rozsyła je do zalogowanych klientów,
-	•	obsługuje wylogowanie klientów,
-	•	gromadzi wszystkie odpowiedzi na żądania klientów w logu, realizowanym w pamięci wewnętrznej (poza systemem plikowym).
+-	•	obsługuje logowanie klientów (tylko id, bez hasła),
+-	•	przyjmuje od klientów wiadomości i rozsyła je do zalogowanych klientów,
+-	•	obsługuje wylogowanie klientów,
+-	•	gromadzi wszystkie odpowiedzi na żądania klientów w logu, realizowanym w pamięci wewnętrznej (poza systemem plikowym).
 
 Zadania te wykonuje klasa ChatServer, która ma:
-	•	konstruktor: public ChatServer(String host, int port)
-	•	metodę: public void startServer(), która uruchamia serwer w odrębnym wątku,
-	•	metodę: public void stopServer(), która zatrzymuje serwer i wątek, w którym działa,
-	•	 metodę String getServerLog() - zwraca  log serwera (wymagany format logu będzie widoczny w dalszych przykładach).
+-	•	konstruktor: public ChatServer(String host, int port)
+-	•	metodę: public void startServer(), która uruchamia serwer w odrębnym wątku,
+-	•	metodę: public void stopServer(), która zatrzymuje serwer i wątek, w którym działa,
+-	•	 metodę String getServerLog() - zwraca  log serwera (wymagany format logu będzie widoczny w dalszych przykładach).
 
 Wymagania konstrukcyjne dla klasy ChatServer:
 	•	multipleksowania kanałów gniazd (użycie selektora),
@@ -20,14 +20,14 @@ Dostarczyć także klasy ChatClient z konstruktorem:
   **`public ChatClient(String host, int port, String id)`**, gdzie id - id klienta
 
 i następującymi metodami:
-	•	public void login() - loguje klienta na serwer
-	•	public void logout() - wylogowuje klienta,
-	•	public void send(String req)  - wysyła do serwera żądanie req
-	•	public String getChatView() - zwraca dotychczasowy widok czatu z pozycji danego klienta (czyli wszystkie infomacje, jakie dostaje on po kolei od serwera)
+-	•	public void login() - loguje klienta na serwer
+-	•	public void logout() - wylogowuje klienta,
+-	•	public void send(String req)  - wysyła do serwera żądanie req
+-	•	public String getChatView() - zwraca dotychczasowy widok czatu z pozycji danego klienta (czyli wszystkie infomacje, jakie dostaje on po kolei od serwera)
 Dla metody send żądaniem może być posłanie tekstu wiadomości, zalogowanie, wylogowanie, a protokół komunikacji z  serwerem można po swojemu wymyślić.
 
 Wymagania konstrukcyjne dla klasy ChatClient
-	•	nieblokujące wejście - wyjście
+-	•	nieblokujące wejście - wyjście
 
 Dodatkowo stworzyć klasę ChatClientTask, umożliwiającą uruchamianie klientów w odrębnych wątkach poprzez ExecutorService. 
 Obiekty tej klasy tworzy statyczna metoda:
